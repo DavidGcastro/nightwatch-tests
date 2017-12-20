@@ -1,0 +1,22 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "DP tests using Nightwatch",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nightwatch -e default,chrome",
+    "testDev": "nightwatch -e dev,chrome",
+    "testStage": "nightwatch -e stage,chrome"
+  },
+  "author": "Digital Pulp",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.16"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.16"
+  }
+}

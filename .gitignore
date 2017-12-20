@@ -1,0 +1,6 @@
+*.retry
+.idea/
+/site/vendor/
+.DS_Store
+php-version
+site/web/app/uploads
