@@ -39,7 +39,7 @@
     },
 
     "dev" : {
-      "launch_url" : "https://dp:dp@dev.digitalpulp.com",
+      "launch_url" : "https://password:password@development.digitalpulp.com",
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
@@ -57,7 +57,7 @@
     },
 
     "stage" : {
-      "launch_url" : "https://dp:dp@stage.digitalpulp.com",
+      "launch_url" : "https://password:password@stagingURL.digitalpulp.com",
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
